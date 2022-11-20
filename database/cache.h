@@ -4,21 +4,16 @@
 #include <string>
 #include <iostream>
 #include <memory>
-#include <mutex>
-#include <stack>
-#include <atomic>
+
 
 namespace database
 {
     class Cache
     {
         private:
+            std::shared_ptr<std::iostream> _stream;
+
             Cache();
-
-            using s_type = std::shared_ptr<std::iostream> ;
-            std::stack<s_type> _streams;
-       
-
         public:
             static Cache get();
             void put(long id, const std::string& val);
