@@ -1,7 +1,8 @@
 repo_name: DVDemon/hl_mai_06_redis
 report_id: 5296c655aa0a53eb1a55e43ae2d20823
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T08:09:59+00:00'
+timestamp: '2024-01-05T08:57:51+00:00'
 requested_by: DVDemon
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_06_redis
   detection_source: Repo Metadata
 - name: Lua
   description: Powerful, fast, lightweight, embeddable scripting language
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_06_redis
   detection_source: Repo Metadata
 - name: Redis
   description: Open source (BSD licensed), in-memory data structure store
@@ -35,6 +38,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_06_redis/blob/master/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: Dmitriy Dzyuba
   last_updated_on: 2022-11-19 20:37:24.000000000 Z
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/DVDemon/hl_mai_06_redis
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -55,6 +60,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_06_redis
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -65,4 +71,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_06_redis
   detection_source: Repo Metadata
