@@ -2,7 +2,7 @@ repo_name: DVDemon/hl_mai_06_redis
 report_id: 5296c655aa0a53eb1a55e43ae2d20823
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:57:51+00:00'
+timestamp: '2024-02-29T18:31:06+00:00'
 requested_by: DVDemon
 provider: github
 branch: master
@@ -43,7 +43,7 @@ tools:
   last_updated_by: Dmitriy Dzyuba
   last_updated_on: 2022-11-19 20:37:24.000000000 Z
 - name: CMake
-  description: 'An open-source system that manages the build process '
+  description: An open-source system that manages the build process
   website_url: http://www.cmake.org/
   open_source: false
   hosted_saas: false
